@@ -1,0 +1,58 @@
+.loading-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0deg, #121212, #121212),
+    linear-gradient(0deg, #171923, #171923),
+    linear-gradient(0deg, #171923, #171923);
+    color:white;
+    font-size: 7.2rem;
+
+}
+
+.loading-screen h1{
+    font-size: 6.2rem;
+    color:white;
+    margin-bottom: 80px;
+    
+}
+
+.loading-screen p{
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1350px) {
+    .loading-screen{
+        font-size: 3.6rem;
+    }
+
+    .loading-screen h1{
+        font-size: 3.2rem;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .loading-screen{
+        font-size: 2.4rem;
+    }
+
+    .loading-screen h1{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .loading-screen{
+        font-size: 1.8rem;
+    }
+
+    .loading-screen h1{
+        font-size: 1.6rem;
+    }
+}
+
+
